@@ -1,0 +1,350 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    /* background-color: black; */
+    background-image: url(images/bg1.jpg);
+    background-size: cover;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+
+.container{
+    border: none;
+    /* background-image: url(images/bg1.jpg); */
+    /* background-size: cover; */
+    height: 580px;
+    padding-top: 80px ;
+}
+
+ .header{
+     margin-left: -50px;
+    margin-top: -70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    padding: 30px 10%;
+}
+
+li, a {
+    
+    color: rgba(255, 255, 255, 0.822);
+    text-decoration: none;
+    font-size: 1.08rem;
+
+} 
+
+.logo{
+    cursor: pointer;
+    margin-top: -10px;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: red;
+}
+
+.header button{
+    background-color: rgba(255, 0, 0, 0.89);
+    border: 1px solid rgba(255, 0, 0, 0.89);
+   
+    border-radius: 3px;
+    height: 38px;
+    width: 110px;
+    color: white;
+    font-weight: bolder;
+    letter-spacing: 2px;
+    padding: 3px;
+}
+
+.header button:hover{
+    background-color: white;
+    color: red;
+
+}
+
+
+
+.container2{
+    display: flex;
+}
+
+.intro{
+
+    margin-top: 100px;
+    margin-left: 200px;
+    
+    color: rgba(255, 255, 255, 0.822);
+}
+
+#intro1{
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.intro h1{
+    color: rgb(245, 173, 151);
+    font-size: 3rem;
+}
+
+#intro2{
+    color: skyblue;
+}
+
+.intro button{
+    margin-left: 160px;
+    margin-top: 25px;
+    background-color: rgba(255, 0, 0, 0.89);
+    border: 1px solid rgba(255, 0, 0, 0.89);
+    border-radius: 3px;
+    height: 38px;
+    width: 130px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 2.3px;
+    padding: 3px;
+}
+
+.intro button:hover{
+    background-color: white;
+    color: red;
+
+}
+
+.intropic{
+    margin-bottom: 15px;
+}
+
+/* <!---------- About me styling  ------------> */
+.container3{
+
+    display: flex;
+    margin-top: -20px;
+    background-color: #070f3b;
+    background-image: linear-gradient(20deg, #070f3b 0%, #0d0429 30%, #000004 66%, #010108 100%);
+    height: 350px ; 
+    border-bottom: none;
+}
+
+
+.aboutme{
+    margin-top: 80px;
+    margin-left: 200px;
+    border: 2px solid whitesmoke;
+    border-radius: 50%;
+    background-image: url(images/mypic4b.png);
+    background-size: contain;
+    width: 160px;
+    height: 200px;
+  
+}
+
+.abtme{
+    margin-top: 80px;
+    margin-left: 50px;
+    color: aqua;
+    font-size: 1.6rem;
+    letter-spacing: 3px;
+}
+
+.desc{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.726);
+    line-height: 30px;
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+}
+
+.fa{
+    color: white;
+    font-size: 35px;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.container4a{
+
+    display: flex;
+    margin-top: 10px;
+    height: 70px ;
+    
+}
+
+.container4a h1{
+    color: aqua;
+    font-weight: bolder;
+    letter-spacing: 4px;
+    margin-left: 45%;
+    font-size: 1.8rem;
+}
+
+.container4b{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+    
+}
+
+.services{
+    margin-top: -30px;
+    width: 340px ;
+    height: 480px;
+    border: 1px #ff0000;
+    background-color: black;
+    opacity: 0.7;
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+
+.services .fa{
+    margin-left: -1px;
+    margin-top: -10px;
+}
+
+.services h3{
+    color: aqua;
+    margin: 13px 0px ;
+}
+
+.services p{
+    color: white;
+    line-height: 30px;
+    letter-spacing: 2px;
+}
+
+#ux1{
+    color: aqua;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+
+
+
+
+/* -------------------------------------*/
+
+.container5{
+    background-image: url(images/cont.jpg);
+    background-size: cover;
+    opacity: 5;
+    height: 600px ; 
+    margin-top: -49px;
+    
+}
+.contact{
+    margin-top: 50px;
+    width: 100%;
+    height: 630px;
+    background-color: black;
+    opacity: 0.7;
+    padding: 30px 20px;
+    display: flex;
+    
+
+}
+
+.contact-a{
+    
+    height: 570px;
+    width: 55%;
+    border: 1px solid gray;
+    margin: 0px 30px;
+}
+
+.btn1{
+    width: 250px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    letter-spacing: 3px;
+    font-weight: 2;
+    border-radius: 10px;
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 8px;
+
+}
+
+
+
+.input{
+    margin-top:10px ;
+    margin-bottom: 30px;
+    margin-left: 250px;
+    border: none;
+    border-bottom: 1px solid red ;
+    background: none;
+    height: 30px;
+    width: 270px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+input::placeholder{
+    letter-spacing: 3px;
+   text-align: center;
+}
+
+#textbox{
+    margin-left: 150px;
+    background-color: rgba(0, 0, 0, 0.644) ;
+    border: 1px solid gray;
+    color: white;
+}
+
+
+.btn2{
+    width: 180px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border: none;
+    margin-left: 270px;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+
+.btn2:hover{
+    background-color: white;
+    color: red;
+
+}
+
+.footer{
+    margin-left:550px ;
+    margin-top: 45px;
+    padding-bottom: 40px;
+    color: bisque;
+    font-style: italic;
+}
+
+
+
+/*------------------------------------------- */
